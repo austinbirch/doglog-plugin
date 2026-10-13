@@ -20,7 +20,7 @@ create a scheduled task in Claude that says so.
 
 ## What's in it
 
-- **A skill**, `dog-carer`: how Claude keeps the diary, checks in, and reports.
+- **A skill**, `doglog`: how Claude keeps the diary, checks in, and reports.
 - **A connector** to doglog's server at `doglog.austinbirch.co.uk`, which
   stores the record.
 
