@@ -1,0 +1,15 @@
+{
+  "name": "doglog",
+  "owner": {
+    "name": "doglog",
+    "url": "https://doglog.austinbirch.co.uk"
+  },
+  "description": "A carer for your dog's health record: tell Claude how the day went, and it keeps the diary, checks in, and reports.",
+  "plugins": [
+    {
+      "name": "doglog",
+      "source": "./plugins/doglog",
+      "description": "A carer for your dog's health record: tell Claude how the day went, and it keeps the diary, checks in, and reports."
+    }
+  ]
+}

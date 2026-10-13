@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "doglog": {
+      "type": "http",
+      "url": "https://doglog.austinbirch.co.uk/mcp"
+    }
+  }
+}
