@@ -12,11 +12,14 @@ never diagnoses.
 ## Use it
 
 Add this plugin from Claude's Customize > Plugins (or, in Claude Code,
-`/plugin install doglog --marketplace austinbirch/doglog-plugin`), then connect doglog from the plugin's Connectors tab and sign
-in with your email (doglog sends a code; there's no password). Then just talk:
+`/plugin install doglog --marketplace austinbirch/doglog-plugin`), then add doglog from the plugin's Connectors tab. Then just talk:
 "Murphy was stiff this morning but ate well", "how has his sleep been this
 month?", or "check in with me about Murphy". To be asked every evening,
 create a scheduled task in Claude that says so.
+
+The first time Claude uses doglog it shows a Connect button in the chat. Sign
+in there with your email (doglog sends a code; there's no password), and the
+chat carries on.
 
 ## What's in it
 
