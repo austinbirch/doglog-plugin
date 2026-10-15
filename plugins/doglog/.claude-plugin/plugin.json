@@ -1,7 +1,7 @@
 {
   "name": "doglog",
   "displayName": "doglog",
-  "version": "0.1.11",
+  "version": "0.1.13",
   "description": "A carer for your dog's health record: tell Claude how the day went, and it keeps the diary, checks in, and reports.",
   "author": {
     "name": "doglog",
