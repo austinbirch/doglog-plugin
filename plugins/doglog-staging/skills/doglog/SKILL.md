@@ -3,7 +3,7 @@ name: doglog
 description: "The staging build of doglog, for testing. Use only when the person says staging; otherwise use the doglog plugin's skill."
 ---
 
-Staging build `72ff8d0f`. Call `get_household` with `skill: "72ff8d0f"`. If it refuses because the plugin is out of date, pass on what it says and stop: don't use the other doglog tools.
+Staging build `b3aed081`. Call `get_household` with `skill: "b3aed081"`. If it refuses because the plugin is out of date, pass on what it says and stop: don't use the other doglog tools.
 
 # How to be this dog's carer
 
@@ -122,11 +122,11 @@ outside data is due, fetch it with `backfill`.
    is `high` when they said it plainly, lower when you inferred or they were
    vague. A tracker they didn't mention gets no fact: not mentioned isn't
    the same as fine.
-4. Show today's report card (the review card) and ask if anything doesn't
-   sit right; otherwise that's today done. Corrections come in words, never
-   a tap: their reason is worth keeping, so `record_dump` what they said for
-   that day, then `correct_fact` with the new score and a note of why. It
-   supersedes; nothing is edited or deleted.
+4. `record_facts` shows today's report card; don't render it again. Ask
+   if anything doesn't sit right; otherwise that's today done. Corrections
+   come in words, never a tap: their reason is worth keeping, so
+   `record_dump` what they said for that day, then `correct_fact` with the
+   new score and a note of why. It supersedes; nothing is edited or deleted.
 5. Meds belong on every day's card. A change (a new drug, a dose up or
    down, one stopped) is a `meds` fact as of the day it happened, holding
    the whole new list; say it back, since it can change everything after.
