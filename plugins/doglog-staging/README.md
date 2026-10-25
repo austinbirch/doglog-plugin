@@ -26,7 +26,7 @@ chat carries on.
 ## What's in it
 
 - **A skill**, `doglog`: how Claude keeps the diary, checks in, and reports.
-- **A connector** to doglog's server at `doglog-staging.austinbirch.co.uk`, which
+- **A connector** to doglog's server at `doglog.austinbirch.co.uk`, which
   stores the record.
 
 ## Data

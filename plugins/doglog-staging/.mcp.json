@@ -2,7 +2,7 @@
   "mcpServers": {
     "doglog-staging": {
       "type": "http",
-      "url": "https://doglog-staging.austinbirch.co.uk/mcp"
+      "url": "https://doglog.austinbirch.co.uk/staging/mcp"
     }
   }
 }

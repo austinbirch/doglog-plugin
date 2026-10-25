@@ -1,10 +1,10 @@
 {
   "name": "doglog-staging",
   "displayName": "doglog (staging)",
-  "version": "0.0.9",
+  "version": "0.0.13",
   "description": "doglog's staging build, for testing a branch before it's merged. Not for a real dog's record.",
   "author": {
     "name": "doglog",
-    "url": "https://doglog-staging.austinbirch.co.uk"
+    "url": "https://doglog.austinbirch.co.uk"
   }
 }
