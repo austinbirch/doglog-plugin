@@ -19,7 +19,7 @@ create a scheduled task in Claude that says so.
 
 The first time Claude uses doglog it shows a Connect button in the chat. Sign
 in there with your email (doglog sends a code; there's no password), and the
-chat carries on.
+chat carries on. If anything is missing, Claude says so and walks you through it.
 
 ## What's in it
 
