@@ -1,7 +1,7 @@
 {
   "name": "doglog-staging",
   "displayName": "doglog (staging)",
-  "version": "0.0.25",
+  "version": "0.0.31",
   "description": "doglog's staging build, for testing a branch before it's merged. Not for a real dog's record.",
   "author": {
     "name": "doglog",

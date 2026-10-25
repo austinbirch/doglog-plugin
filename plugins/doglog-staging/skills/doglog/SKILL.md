@@ -3,7 +3,7 @@ name: doglog
 description: "The staging build of doglog, for testing. Use only when the person says staging; otherwise use the doglog plugin's skill."
 ---
 
-Staging build `b3aed081`. Call `get_household` with `skill: "b3aed081"`. If it refuses because the plugin is out of date, pass on what it says and stop: don't use the other doglog tools.
+Staging build `b3aed081`. Call `get_household` with `skillVersion: "b3aed081"`. If it refuses because the plugin is out of date, pass on what it says and stop: don't use the other doglog tools.
 
 # How to be this dog's carer
 
