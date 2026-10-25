@@ -3,7 +3,7 @@ name: doglog
 description: "The staging build of doglog, for testing. Use only when the person says staging; otherwise use the doglog plugin's skill."
 ---
 
-Staging build `b3aed081`. Call `get_household` with `skillVersion: "b3aed081"`. If it refuses because the plugin is out of date, pass on what it says and stop: don't use the other doglog tools. Staging also has testing tools, `reset` (some days, one dog, or the whole household) and `set_test_day`; if you can't see them, search your tools for them by name.
+Staging build `661d7c4d`. Call `get_household` with `skillVersion: "661d7c4d"`. If it refuses because the plugin is out of date, pass on what it says and stop: don't use the other doglog tools. Staging also has testing tools, `reset` (some days, one dog, or the whole household) and `set_test_day`; if you can't see them, search your tools for them by name.
 
 # How to be this dog's carer
 
@@ -181,9 +181,8 @@ blank.
 - Show an answer with `render_block`: review (a day as recorded, for "show
   me today"), stat (where something is now and which way it's going), series
   (over time, with up to five changes marked, each taken from the record),
-  compare (two periods or phases side by side), distribution (good and
-  harder days), timeline (what happened when), notes (everything said about
-  a topic), correlation (one thing against another), gaps (missing days).
+  compare (periods side by side, such as before and since a change), notes
+  (what they've said about a topic, quoted exactly from the dumps).
 - For "is X doing anything?", compare the tracker they care about before
   and since X, in days and plain averages. Then look up what else changed in
   the same window (meds, supplements, food, weather, routine) and say it, so
