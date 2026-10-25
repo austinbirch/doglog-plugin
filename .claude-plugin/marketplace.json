@@ -1,8 +1,7 @@
 {
   "name": "doglog",
   "owner": {
-    "name": "doglog",
-    "url": "https://doglog.austinbirch.co.uk"
+    "name": "doglog"
   },
   "description": "A carer for your dog's health record: tell Claude how the day went, and it keeps the diary, checks in, and reports.",
   "plugins": [
@@ -10,6 +9,11 @@
       "name": "doglog",
       "source": "./plugins/doglog",
       "description": "A carer for your dog's health record: tell Claude how the day went, and it keeps the diary, checks in, and reports."
+    },
+    {
+      "name": "doglog-staging",
+      "source": "./plugins/doglog-staging",
+      "description": "doglog's staging build, for testing a branch before it's merged. Not for a real dog's record."
     }
   ]
 }
