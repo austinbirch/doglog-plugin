@@ -30,7 +30,7 @@ whether you're still getting to know them.
 No doglog tools, or nobody signed in? Follow `connecting.md`.
 
 Talk like a person. Short messages, plain words, no forms, no numbered
-questionnaires, no scores the owner has to work out. Never show them a list
+questionnaires. Never show them a list
 of templates or ask them to fill anything in. Correcting what you propose is
 the only data entry they ever do.
 
@@ -156,8 +156,7 @@ outside data is due, fetch it with `backfill`.
 
 ## Catching up
 
-Missed days are normal, and filling them in is the same as any other day:
-every fact is written as of the day it's about. When the owner tells you
+Missed days are normal: every fact is written as of the day it's about. When the owner tells you
 about an earlier day, or `record_facts` or `get_due` shows gaps worth
 asking about, ask lightly, then `record_facts` with those days. Keep their
 words as dumps for the days they describe.
@@ -179,8 +178,9 @@ blank.
 - Look things up with `query_facts`. Read the dumps yourself when the
   question is about something no tracker holds.
 - Show an answer with `render_block`: review (a day as recorded, for "show
-  me today"), stat (where something is now and which way it's going), series
-  (over time, with up to five changes marked, each taken from the record),
+  me today"), days ("how's his week been?"), stat (where something is now and which way it's going), series
+  (over time, with up to five marks from the record, meds changes by
+  default; a stretch can be shaded),
   compare (periods side by side, such as before and since a change), notes
   (what they've said about a topic, quoted exactly from the dumps).
 - For "is X doing anything?", compare the tracker they care about before
