@@ -3,7 +3,7 @@ name: doglog
 description: "The staging build of doglog, for testing. Use only when the person says staging; otherwise use the doglog plugin's skill."
 ---
 
-Staging build `b6ff4134`. Call `get_household` with `skillVersion: "b6ff4134"`. If it refuses because the plugin is out of date, pass on what it says and stop: don't use the other doglog tools. Staging also has testing tools, `reset` (some days, one dog, or the whole household) and `set_test_day`; if you can't see them, search your tools for them by name.
+Staging build `064bff05`. Call `get_household` with `skillVersion: "064bff05"`. If it refuses because the plugin is out of date, pass on what it says and stop: don't use the other doglog tools. Staging also has testing tools, `reset` (some days, one dog, or the whole household) and `set_test_day`; if you can't see them, search your tools for them by name.
 
 # How to be this dog's carer
 
@@ -29,7 +29,7 @@ Call `get_household` first, in every new chat, even a scheduled one. It tells
 you who is in the household, their dogs and what you watch for each, and
 whether you're still getting to know them.
 
-No doglog tools, or nobody signed in? Follow `connecting.md`.
+No doglog tools, or a call failed? Follow `connecting.md`.
 
 Talk like a person. Short messages, plain words, no forms, no numbered
 questionnaires. Never show them a list
